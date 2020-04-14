@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:BasicNestedFormsLab
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BasicNestedFormsLab	config/application.rb	/^module BasicNestedFormsLab$/;"	m
+CategoriesController	app/controllers/categories_controller.rb	/^class CategoriesController < ApplicationController$/;"	c
+Category	app/models/category.rb	/^class Category < ActiveRecord::Base$/;"	c
+Comment	app/models/comment.rb	/^class Comment < ActiveRecord::Base$/;"	c
+CommentsController	app/controllers/comments_controller.rb	/^class CommentsController < ApplicationController$/;"	c
+CreateCategories	db/migrate/20160115202434_create_categories.rb	/^class CreateCategories < ActiveRecord::Migration$/;"	c
+CreateComments	db/migrate/20160119152016_create_comments.rb	/^class CreateComments < ActiveRecord::Migration$/;"	c
+CreatePostCategories	db/migrate/20160115202458_create_post_categories.rb	/^class CreatePostCategories < ActiveRecord::Migration$/;"	c
+CreatePosts	db/migrate/20160113001427_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+CreateUsers	db/migrate/20160119151932_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+PostCategory	app/models/post_category.rb	/^class PostCategory < ActiveRecord::Base$/;"	c
+PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+PostsHelper	app/helpers/posts_helper.rb	/^module PostsHelper$/;"	m
+RecipesHelper	app/helpers/recipes_helper.rb	/^module RecipesHelper$/;"	m
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+change	db/migrate/20160113001427_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+change	db/migrate/20160115202434_create_categories.rb	/^  def change$/;"	f	class:CreateCategories
+change	db/migrate/20160115202458_create_post_categories.rb	/^  def change$/;"	f	class:CreatePostCategories
+change	db/migrate/20160119151932_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20160119152016_create_comments.rb	/^  def change$/;"	f	class:CreateComments
+comment_params	app/controllers/comments_controller.rb	/^  def comment_params$/;"	f	class:CommentsController
+create	app/controllers/comments_controller.rb	/^  def create$/;"	f	class:CommentsController
+create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
+index	app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
+new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
+post_params	app/controllers/posts_controller.rb	/^  def post_params$/;"	f	class:PostsController
+show	app/controllers/categories_controller.rb	/^  def show$/;"	f	class:CategoriesController
+show	app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
